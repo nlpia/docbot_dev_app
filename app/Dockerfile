@@ -1,4 +1,4 @@
-FROM python:3.6.5
+FROM python:3.7
 
 RUN apt-get update && apt-get install -y ca-certificates netcat-openbsd postgresql-client-9.6
 
